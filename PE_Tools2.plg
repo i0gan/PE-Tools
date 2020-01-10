@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PE_Tools2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/LYXF.res" /d "NDEBUG" "C:\Documents and Settings\Logan\桌面\PE_Tools2\src\LYXF.RC"" 
+Creating temporary file "C:\DOCUME~1\Logan\LOCALS~1\Temp\RSP2.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/PE_Tools2.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Logan\桌面\PE_Tools2\src\main.cpp"
+"C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Logan\LOCALS~1\Temp\RSP2.tmp" 
+Creating temporary file "C:\DOCUME~1\Logan\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/PE_Tools2.pdb" /machine:I386 /out:"Release/PE_Tools2.exe" 
+".\Release\main.obj"
+".\Release\SourceCode.obj"
+".\Release\LYXF.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Logan\LOCALS~1\Temp\RSP3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+SourceCode.cpp
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(591) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(689) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(689) : warning C4309: 'initializing' : truncation of constant value
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(689) : warning C4305: 'initializing' : truncation from 'const int' to 'char'
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(689) : warning C4309: 'initializing' : truncation of constant value
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(818) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(874) : warning C4076: 'unsigned' : can not be used with type 'float'
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(874) : warning C4244: 'initializing' : conversion from 'const double' to 'unsigned int', possible loss of data
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(875) : warning C4244: 'initializing' : conversion from 'const double' to 'unsigned long', possible loss of data
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(977) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(1099) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(1136) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(1328) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(1411) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(1445) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2002) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2003) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2118) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2147) : warning C4101: 'i_1' : unreferenced local variable
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2240) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2257) : warning C4018: '>' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2279) : warning C4018: '<=' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2281) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2520) : warning C4805: '==' : unsafe mix of type 'unsigned long' and type 'const bool' in operation
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2566) : warning C4805: '==' : unsafe mix of type 'unsigned long' and type 'const bool' in operation
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(2636) : warning C4805: '==' : unsafe mix of type 'unsigned long' and type 'const bool' in operation
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(1212) : warning C4715: 'Get_Function_Addr_By_Name' : not all control paths return a value
+C:\Documents and Settings\Logan\桌面\PE_Tools2\src\SourceCode.cpp(1509) : warning C4724: potential mod by 0
+Linking...
+
+
+
+<h3>Results</h3>
+PE_Tools2.exe - 0 error(s), 28 warning(s)
+</pre>
+</body>
+</html>
