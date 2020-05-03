@@ -1,4 +1,7 @@
-#include "main.h"
+// Author: I0gan
+// Create Time: 2019 08
+// Update Time: 2019 12
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
@@ -2776,3 +2779,10 @@ void __stdcall Entrance()
 	system("color A");						//Set color
 	Run_Function();
 }
+
+int main()
+{
+	Entrance();		
+	return 0;
+}
+//All Rights Reserved
